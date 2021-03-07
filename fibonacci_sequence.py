@@ -16,7 +16,6 @@ def fibo_sequence(n):
 	for i in range(0,n):
 		add_next_element = ls[i] + ls[i+1]
 		ls.append(add_next_element)
-
 	
 	return ls
 
